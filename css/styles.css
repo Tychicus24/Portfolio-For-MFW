@@ -1,0 +1,82 @@
+.body{
+    padding-left: 125px;
+    margin: auto;
+    background-color: beige;
+  }
+  
+  div {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  b {
+    font-family: sans-serif;
+  }
+  
+  #grey {
+    height: 120px;
+    width: 120px;
+    border: 1px dashed #996;
+    background-color: grey;
+    position: absolute;
+    float: left;
+    margin: 0px 10px 0px 10px;
+    text-align: left;
+    z-index: 1;
+  }
+  
+  #store {
+    height: 320px;
+    width: 580px;
+    border: 1px dashed #996;
+    background-color: #ff0;
+    margin: 75px 0px 0px 75px;
+    float: left;
+    text-align: left;
+    position: absolute;
+  /*   z-index: 1; */
+  }
+  
+  #gwcpage{
+    margin: 54px 250px 0px 0px;
+    float: right;
+    width: 600px;
+    height: 250px;
+    border: 1px dashed #090;
+    background-color: #0f0;
+  /*   z-index: 2; */
+  }
+  
+  
+  
+  #alaska {
+    position: absolute;
+    margin: 310px 10px 0px 600px;
+    /* float: left; */
+    width: 450px;
+    height: 250px;
+    border: 1px dashed #090;
+    background-color: orange;
+   /*   z-index: 1; */
+  }
+  
+  #pink {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    margin: 550px 0px 0px 100px;
+    border: 1px dashed #990;
+    background-color: #fdd;
+  }
+
+  #apothecary{
+    position: absolute;
+    margin: 54px 200px 0px 0px;
+    width:500px;
+    height:280px;
+    top: 380px;
+    right:28px;
+    background-color: lightblue;
+  /*   z-index: -1; */
+  }
+  
