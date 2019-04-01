@@ -2,37 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy');
 /* HEADER Section */
 
- 
- /* .container{
-    padding-left: 125px;
-    margin: auto;
-    background-color: beige;
-    border: #996;
-  }  */
+/* .body {
+ margin: 0px;
+ padding: 0opx;
+ background-color: bisque;
+} */
 
- /* .body{
-    margin: 0 auto;
-    position: relative;
-
-  } */
-
-  /* html, body {
-    height: 100%;
-    width: 100%;
-  }
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-  .main {
-    flex: 1 0 auto;
-    width: 100%;
-  }
-  .footer {
-    flex-shrink: 0;
-    width: 100%;
-  } */
-  
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(226, 220, 214);
+ }
+   
  .container {    
     position: absolute;
     margin: 0 auto;
@@ -41,49 +22,20 @@
     align-content: center; */
     font-style: oblique;
     font-size: 150%;
+    /* background-color: bisque; */
   } 
   
-  /* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
-    line-height: 500%;
-  }
-  
-  li {
-    float: left;
-   }
-  
-  li a {
-    color: rgba(70, 91, 131, 0.69);
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 30px;
-  }
-  
-  li a:hover {
-    background-color: #cccdce;
-  } */
-    
-  .image {
+   .image {
     border-radius: 5px;
     border-width: 5px; 
     border-style: solid;
     color: rgb(87, 87, 82);
-  
-
-  }
-  
+    }
+   
   #owl {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     padding: 10 0 0 10;
-    /* border: 1px da0shed #996; */
-    /* background-color: grey; */
     position: relative;
     float: left;
     margin: 0px 10px 0px 10px;
@@ -93,8 +45,6 @@
   #store {
     height: 375px;
     width: 580px;
-    /* border: 1px dashed #996; */
-    /* background-color: #ff0; */
     margin: 75px 0px 0px 75px;
     float: left;
     position: absolute;
@@ -103,8 +53,6 @@
   #realtor {
     height: 320px;
     width: 320px;
-    border: 1px dashed #996;
-    /* background-color: rgb(32, 28, 230); */
     margin: 40px 0px 0px 670px;
     float: left;
     position: absolute;
@@ -115,51 +63,66 @@
     margin: 54px 0px 0px 1000px;
     float: right;
     width: 600px;
-    /* height: 250px;
-    border: 1px dashed #090; */
-    /* background-color: #0f0; */
-  
-  }
+   }
   
     #alaska {
     position: absolute;
     margin: 310px 10px 0px 600px;
-    /* float: left; */
     width: 450px;
     height: 250px;
-    /* border: 1px dashed #090; */
-    /* background-color: orange; */
-   
-  }
+    }
   
   #conservancy {
     position: absolute;
     width: 600px;
     height: 650px;
     margin: 550px 0px 0px 1100px;
-    /* border: 1px dashed #990; */
-    /* background-color: #fdd; */
-  }
+   }
 
   #apothecary{
     position: absolute;
-    margin: 54px 200px 0px 0px;
+    margin: 630px 100px 0px 150px;
     width:500px;
     height:280px;
-    top: 380px;
-    right:28px;
-    /* background-color: lightblue; */
-  
+    z-index: 1; 
   }
 
   #firstwork{
     position: absolute;
-    margin: 374px 100px 0px 0px;
-    widows: 600px;
+    margin: 474px 100px 0px 20px;
+    width: 600px;
     height:300px;
-    top: 380px;
-    right:28px;
+
    }
+
+   .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .25s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: .85;
+  }
+  
+  .text1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
     
 .footer {
@@ -174,15 +137,6 @@
   border-radius: 3px;
 }
 
-/* a { color: rgb(175, 174, 174); }
-a:active { color: rgb(148, 148, 179); } */
-
-/* .footer h2 {
-  font-size: 15px;
-  font-weight: normal;
-  color: black; 
-} */
-/* unvisited link */
 a:link {
   color: rgb(175, 174, 174);
 }
