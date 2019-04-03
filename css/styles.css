@@ -2,132 +2,24 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy');
 /* HEADER Section */
 
-/* .body {
- margin: 0px;
- padding: 0opx;
- background-color: bisque;
-} */
-
 .container-fluid {
   margin: 0px;
   padding: 0px;
-  background-color: rgb(226, 220, 214);
- }
+  }
    
- .container {    
+ 
+  .text-block {
     position: absolute;
-    margin: 0 auto;
-    /* display: flex;
-    justify-content: center;
-    align-content: center; */
-    font-style: oblique;
-    font-size: 150%;
-    /* background-color: bisque; */
-  } 
-  
-   .image {
-    border-radius: 5px;
-    border-width: 5px; 
-    border-style: solid;
-    color: rgb(87, 87, 82);
-    }
-   
-  #owl {
-    height: 150px;
-    width: 150px;
-    padding: 10 0 0 10;
-    position: relative;
-    float: left;
-    margin: 0px 10px 0px 10px;
-    z-index: 1;
-  }
-  
-  #store {
-    height: 375px;
-    width: 580px;
-    margin: 75px 0px 0px 75px;
-    float: left;
-    position: absolute;
-   }
-
-  #realtor {
-    height: 320px;
-    width: 320px;
-    margin: 40px 0px 0px 670px;
-    float: left;
-    position: absolute;
-    }
-  
-  #gwcpage{
-    position: absolute;
-    margin: 54px 0px 0px 1000px;
-    float: right;
-    width: 600px;
-   }
-  
-    #alaska {
-    position: absolute;
-    margin: 310px 10px 0px 600px;
-    width: 450px;
-    height: 250px;
-    }
-  
-  #conservancy {
-    position: absolute;
-    width: 600px;
-    height: 650px;
-    margin: 550px 0px 0px 1100px;
-   }
-
-  #apothecary{
-    position: absolute;
-    margin: 630px 100px 0px 150px;
-    width:500px;
-    height:280px;
-    z-index: 1; 
-  }
-
-  #firstwork{
-    position: absolute;
-    margin: 474px 100px 0px 20px;
-    width: 600px;
-    height:300px;
-
-   }
-
-   .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .25s ease;
-    background-color: #008CBA;
-  }
-  
-  .container:hover .overlay {
-    opacity: .85;
-  }
-  
-  .text1 {
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
     color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-
     
 .footer {
-    
-  margin-top: 1100px;
+  margin-top: 600px;
   height: 120px;
   position: relative;
   background-color: #11110a;
@@ -141,18 +33,15 @@ a:link {
   color: rgb(175, 174, 174);
 }
 
-/* visited link */
 a:visited {
   color:  rgb(98, 116, 165);
 }
 
-/* mouse over link */
 a:hover {
   color:  rgb(255, 255, 255);
 }
 
 .footer-pic {
-/* margin-right: 100px; */
 margin-right: 400px;
 margin: 5px;
 }
