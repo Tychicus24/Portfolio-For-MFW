@@ -1,27 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy');
 /* HEADER Section */
 
-/* .body {
+.body {
  margin: 0px;
  padding: 0opx;
- background-color: bisque;
-} */
+ /* background-color: bisque; */
+ /* background-color: rgb(37, 113, 255); */
+
+}
 
 .container-fluid {
   margin: 0px;
   padding: 0px;
-  background-color: rgb(226, 220, 214);
+  /* background-color: rgb(226, 220, 214); */
+  background-color: rgb(0, 89, 255);
  }
+
+ .navbar {
+  height: 80px;
+  margin-bottom: -20;
+}
    
  .container {    
     position: absolute;
     margin: 0 auto;
-    /* display: flex;
-    justify-content: center;
-    align-content: center; */
     font-style: oblique;
     font-size: 150%;
-    /* background-color: bisque; */
   } 
   
    .image {
@@ -140,18 +144,15 @@ a:link {
   color: rgb(175, 174, 174);
 }
 
-/* visited link */
 a:visited {
   color:  rgb(98, 116, 165);
 }
 
-/* mouse over link */
 a:hover {
   color:  rgb(255, 255, 255);
 }
 
 .footer-pic {
-/* margin-right: 100px; */
 margin-right: 400px;
 margin: 5px;
 }
