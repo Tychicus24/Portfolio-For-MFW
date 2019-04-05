@@ -4,28 +4,28 @@
 .body {
  margin: 0px;
  padding: 0opx;
- /* background-color: bisque; */
- /* background-color: rgb(37, 113, 255); */
-
-}
-
+ }
+/* 
 .container-fluid {
   margin: 0px;
   padding: 0px;
   /* background-color: rgb(226, 220, 214); */
-  background-color: rgb(0, 89, 255);
- }
+  /* background-color: rgb(0, 89, 255, .5); */
+  background-color: rgb(255, 253, 253);
+ } */
 
- .navbar {
+ .navbar-inverse {
   height: 80px;
-  margin-bottom: -20;
+  margin-bottom: 0 !important;
 }
+
    
  .container {    
     position: absolute;
     margin: 0 auto;
     font-style: oblique;
     font-size: 150%;
+    height: 80vh;
   } 
   
    .image {
@@ -41,7 +41,7 @@
     padding: 10 0 0 10;
     position: relative;
     float: left;
-    margin: 0px 10px 0px 10px;
+    margin: 25px 10px 0px 10px;
     z-index: 1;
   }
   
@@ -63,7 +63,7 @@
   
   #gwcpage{
     position: absolute;
-    margin: 54px 0px 0px 1000px;
+    margin: 10px 0px 0px 1000px;
     float: right;
     width: 600px;
    }
@@ -79,36 +79,49 @@
     position: absolute;
     width: 600px;
     height: 650px;
-    margin: 550px 0px 0px 1100px;
+    margin: 680px 0px 0px 1100px;
    }
 
   #apothecary{
     position: absolute;
-    margin: 630px 100px 0px 150px;
-    width:500px;
+    margin: 800px 100px 0px 250px;
+    width:300px;
     height:280px;
     z-index: 1; 
   }
 
-  #firstwork{
+  #restaraunte{
     position: absolute;
     margin: 474px 100px 0px 20px;
     width: 600px;
     height:300px;
+   }
+
+   #firstclass{
+    position: absolute;
+    margin: 380px 0px 0px 1180px;
+    width: 400px;
+    height:300px;
 
    }
 
+   .img-responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
    .overlay {
     position: absolute;
-    top: 0;
+    top:300;
     bottom: 0;
-    left: 0;
+    left: 0px;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 250px;
+    width: 580px;
     opacity: 0;
     transition: .25s ease;
-    background-color: #008CBA;
+    background-color: rgb(0, 89, 255);
   }
   
   .container:hover .overlay {
@@ -119,11 +132,11 @@
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 50%;
+    /* top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     text-align: center;
   }
 

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy');
+/* HEADER Section */
+  
+ .container-fluid {
+   margin: 0px;
+   padding: 0px;
+   background-color: rgb(255, 253, 253);
+   height: 100vh;
+   margin: 0px;
+  }
+
+  .navbar-inverse {
+    height: 80px;
+    margin-bottom: 0 !important;
+  }
+
+  .photo{
+    margin-top: 5px;
+    padding-top: 5px;
+  } 
+
+.footer {
+  height: 120px;
+  position: relative;
+  background-color: #11110a;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+}
+
+a:link {
+  color: rgb(175, 174, 174);
+}
+
+a:visited {
+  color:  rgb(98, 116, 165);
+}
+
+a:hover {
+  color:  rgb(255, 255, 255);
+}
+
+.footer-pic {
+margin-right: 400px;
+margin: 5px;
+}
+
+.vr {
+  border-left: 1px solid rgb(255, 255, 255) !important;
+  height: 80px;
+  margin: 20px;
+  }
+   
+.social {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
