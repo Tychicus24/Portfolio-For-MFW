@@ -41,14 +41,14 @@
     padding: 10 0 0 10;
     position: relative;
     float: left;
-    margin: 25px 10px 0px 10px;
+    margin: 385px 10px 0px 750px;
     z-index: 1;
   }
   
   #store {
     height: 375px;
     width: 580px;
-    margin: 75px 0px 0px 75px;
+    margin: 50px 0px 0px 65px;
     float: left;
     position: absolute;
    }
@@ -56,7 +56,7 @@
   #realtor {
     height: 320px;
     width: 320px;
-    margin: 40px 0px 0px 670px;
+    margin: 35px 0px 0px 670px;
     float: left;
     position: absolute;
     }
@@ -70,7 +70,7 @@
   
     #alaska {
     position: absolute;
-    margin: 310px 10px 0px 600px;
+    margin: 550px 10px 0px 630px;
     width: 450px;
     height: 250px;
     }
@@ -79,12 +79,12 @@
     position: absolute;
     width: 600px;
     height: 650px;
-    margin: 680px 0px 0px 1100px;
+    margin: 700px 0px 0px 1100px;
    }
 
   #apothecary{
     position: absolute;
-    margin: 800px 100px 0px 250px;
+    margin: 865px 100px 0px 200px;
     width:300px;
     height:280px;
     z-index: 1; 
@@ -92,14 +92,14 @@
 
   #restaraunte{
     position: absolute;
-    margin: 474px 100px 0px 20px;
+    margin: 485px 100px 0px 20px;
     width: 600px;
     height:300px;
    }
 
    #firstclass{
     position: absolute;
-    margin: 380px 0px 0px 1180px;
+    margin: 365px 0px 0px 1180px;
     width: 400px;
     height:300px;
 
