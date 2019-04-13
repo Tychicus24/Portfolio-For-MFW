@@ -1,2 +1,2 @@
 # Portfolio-For-MFW
-Portfolio  Site fpr final project in Mobile First Websites Class
+Portfolio  Site for final project in Mobile First Websites Class
