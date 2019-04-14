@@ -122,6 +122,7 @@
     opacity: 0;
     transition: .25s ease;
     background-color: rgb(0, 89, 255);
+    z-index: 1;
   }
   
   .container:hover .overlay {
